@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B804404B2A08677D006C7B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B804404A2A08677D006C7B3C /* AppDelegate.swift */; };
+		B804404D2A08677D006C7B3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B804404C2A08677D006C7B3C /* SceneDelegate.swift */; };
+		B804404F2A08677D006C7B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B804404E2A08677D006C7B3C /* ViewController.swift */; };
+		B80440522A08677D006C7B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80440502A08677D006C7B3C /* Main.storyboard */; };
+		B80440542A08677E006C7B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80440532A08677E006C7B3C /* Assets.xcassets */; };
+		B80440572A08677E006C7B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80440552A08677E006C7B3C /* LaunchScreen.storyboard */; };
+		B80440622A08677E006C7B3C /* Chemistry_App_3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80440612A08677E006C7B3C /* Chemistry_App_3_0Tests.swift */; };
+		B804406C2A08677E006C7B3C /* Chemistry_App_3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B804406B2A08677E006C7B3C /* Chemistry_App_3_0UITests.swift */; };
+		B804406E2A08677E006C7B3C /* Chemistry_App_3_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B804406D2A08677E006C7B3C /* Chemistry_App_3_0UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B804405E2A08677E006C7B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B804403F2A08677D006C7B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B80440462A08677D006C7B3C;
+			remoteInfo = "Chemistry App 3.0";
+		};
+		B80440682A08677E006C7B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B804403F2A08677D006C7B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B80440462A08677D006C7B3C;
+			remoteInfo = "Chemistry App 3.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B80440472A08677D006C7B3C /* Chemistry App 3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chemistry App 3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B804404A2A08677D006C7B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B804404C2A08677D006C7B3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B804404E2A08677D006C7B3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B80440512A08677D006C7B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B80440532A08677E006C7B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B80440562A08677E006C7B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B80440582A08677E006C7B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B804405D2A08677E006C7B3C /* Chemistry App 3.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chemistry App 3.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80440612A08677E006C7B3C /* Chemistry_App_3_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chemistry_App_3_0Tests.swift; sourceTree = "<group>"; };
+		B80440672A08677E006C7B3C /* Chemistry App 3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chemistry App 3.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B804406B2A08677E006C7B3C /* Chemistry_App_3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chemistry_App_3_0UITests.swift; sourceTree = "<group>"; };
+		B804406D2A08677E006C7B3C /* Chemistry_App_3_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chemistry_App_3_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B80440442A08677D006C7B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B804405A2A08677E006C7B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80440642A08677E006C7B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B804403E2A08677D006C7B3C = {
+			isa = PBXGroup;
+			children = (
+				B80440492A08677D006C7B3C /* Chemistry App 3.0 */,
+				B80440602A08677E006C7B3C /* Chemistry App 3.0Tests */,
+				B804406A2A08677E006C7B3C /* Chemistry App 3.0UITests */,
+				B80440482A08677D006C7B3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B80440482A08677D006C7B3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B80440472A08677D006C7B3C /* Chemistry App 3.0.app */,
+				B804405D2A08677E006C7B3C /* Chemistry App 3.0Tests.xctest */,
+				B80440672A08677E006C7B3C /* Chemistry App 3.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B80440492A08677D006C7B3C /* Chemistry App 3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				B804404A2A08677D006C7B3C /* AppDelegate.swift */,
+				B804404C2A08677D006C7B3C /* SceneDelegate.swift */,
+				B804404E2A08677D006C7B3C /* ViewController.swift */,
+				B80440502A08677D006C7B3C /* Main.storyboard */,
+				B80440532A08677E006C7B3C /* Assets.xcassets */,
+				B80440552A08677E006C7B3C /* LaunchScreen.storyboard */,
+				B80440582A08677E006C7B3C /* Info.plist */,
+			);
+			path = "Chemistry App 3.0";
+			sourceTree = "<group>";
+		};
+		B80440602A08677E006C7B3C /* Chemistry App 3.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B80440612A08677E006C7B3C /* Chemistry_App_3_0Tests.swift */,
+			);
+			path = "Chemistry App 3.0Tests";
+			sourceTree = "<group>";
+		};
+		B804406A2A08677E006C7B3C /* Chemistry App 3.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B804406B2A08677E006C7B3C /* Chemistry_App_3_0UITests.swift */,
+				B804406D2A08677E006C7B3C /* Chemistry_App_3_0UITestsLaunchTests.swift */,
+			);
+			path = "Chemistry App 3.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B80440462A08677D006C7B3C /* Chemistry App 3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80440712A08677E006C7B3C /* Build configuration list for PBXNativeTarget "Chemistry App 3.0" */;
+			buildPhases = (
+				B80440432A08677D006C7B3C /* Sources */,
+				B80440442A08677D006C7B3C /* Frameworks */,
+				B80440452A08677D006C7B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chemistry App 3.0";
+			productName = "Chemistry App 3.0";
+			productReference = B80440472A08677D006C7B3C /* Chemistry App 3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B804405C2A08677E006C7B3C /* Chemistry App 3.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80440742A08677E006C7B3C /* Build configuration list for PBXNativeTarget "Chemistry App 3.0Tests" */;
+			buildPhases = (
+				B80440592A08677E006C7B3C /* Sources */,
+				B804405A2A08677E006C7B3C /* Frameworks */,
+				B804405B2A08677E006C7B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B804405F2A08677E006C7B3C /* PBXTargetDependency */,
+			);
+			name = "Chemistry App 3.0Tests";
+			productName = "Chemistry App 3.0Tests";
+			productReference = B804405D2A08677E006C7B3C /* Chemistry App 3.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B80440662A08677E006C7B3C /* Chemistry App 3.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80440772A08677E006C7B3C /* Build configuration list for PBXNativeTarget "Chemistry App 3.0UITests" */;
+			buildPhases = (
+				B80440632A08677E006C7B3C /* Sources */,
+				B80440642A08677E006C7B3C /* Frameworks */,
+				B80440652A08677E006C7B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B80440692A08677E006C7B3C /* PBXTargetDependency */,
+			);
+			name = "Chemistry App 3.0UITests";
+			productName = "Chemistry App 3.0UITests";
+			productReference = B80440672A08677E006C7B3C /* Chemistry App 3.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B804403F2A08677D006C7B3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B80440462A08677D006C7B3C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B804405C2A08677E006C7B3C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B80440462A08677D006C7B3C;
+					};
+					B80440662A08677E006C7B3C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B80440462A08677D006C7B3C;
+					};
+				};
+			};
+			buildConfigurationList = B80440422A08677D006C7B3C /* Build configuration list for PBXProject "Chemistry App 3.0" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B804403E2A08677D006C7B3C;
+			productRefGroup = B80440482A08677D006C7B3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B80440462A08677D006C7B3C /* Chemistry App 3.0 */,
+				B804405C2A08677E006C7B3C /* Chemistry App 3.0Tests */,
+				B80440662A08677E006C7B3C /* Chemistry App 3.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B80440452A08677D006C7B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80440572A08677E006C7B3C /* LaunchScreen.storyboard in Resources */,
+				B80440542A08677E006C7B3C /* Assets.xcassets in Resources */,
+				B80440522A08677D006C7B3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B804405B2A08677E006C7B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80440652A08677E006C7B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B80440432A08677D006C7B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B804404F2A08677D006C7B3C /* ViewController.swift in Sources */,
+				B804404B2A08677D006C7B3C /* AppDelegate.swift in Sources */,
+				B804404D2A08677D006C7B3C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80440592A08677E006C7B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80440622A08677E006C7B3C /* Chemistry_App_3_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80440632A08677E006C7B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B804406E2A08677E006C7B3C /* Chemistry_App_3_0UITestsLaunchTests.swift in Sources */,
+				B804406C2A08677E006C7B3C /* Chemistry_App_3_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B804405F2A08677E006C7B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B80440462A08677D006C7B3C /* Chemistry App 3.0 */;
+			targetProxy = B804405E2A08677E006C7B3C /* PBXContainerItemProxy */;
+		};
+		B80440692A08677E006C7B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B80440462A08677D006C7B3C /* Chemistry App 3.0 */;
+			targetProxy = B80440682A08677E006C7B3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B80440502A08677D006C7B3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80440512A08677D006C7B3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B80440552A08677E006C7B3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80440562A08677E006C7B3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B804406F2A08677E006C7B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B80440702A08677E006C7B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B80440722A08677E006C7B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chemistry App 3.0/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Chemistry-App-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B80440732A08677E006C7B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chemistry App 3.0/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Chemistry-App-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B80440752A08677E006C7B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Chemistry-App-3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chemistry App 3.0.app/Chemistry App 3.0";
+			};
+			name = Debug;
+		};
+		B80440762A08677E006C7B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Chemistry-App-3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chemistry App 3.0.app/Chemistry App 3.0";
+			};
+			name = Release;
+		};
+		B80440782A08677E006C7B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Chemistry-App-3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chemistry App 3.0";
+			};
+			name = Debug;
+		};
+		B80440792A08677E006C7B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Chemistry-App-3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chemistry App 3.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B80440422A08677D006C7B3C /* Build configuration list for PBXProject "Chemistry App 3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B804406F2A08677E006C7B3C /* Debug */,
+				B80440702A08677E006C7B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80440712A08677E006C7B3C /* Build configuration list for PBXNativeTarget "Chemistry App 3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80440722A08677E006C7B3C /* Debug */,
+				B80440732A08677E006C7B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80440742A08677E006C7B3C /* Build configuration list for PBXNativeTarget "Chemistry App 3.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80440752A08677E006C7B3C /* Debug */,
+				B80440762A08677E006C7B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80440772A08677E006C7B3C /* Build configuration list for PBXNativeTarget "Chemistry App 3.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80440782A08677E006C7B3C /* Debug */,
+				B80440792A08677E006C7B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B804403F2A08677D006C7B3C /* Project object */;
+}
